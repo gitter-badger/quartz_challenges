@@ -1,0 +1,18 @@
+# problem3.txt
+
+# Redis is a key-value store (or more generally a data structure server)
+
+# http://redis.io/
+# http://redis.io/documentation
+# http://redis.io/commands
+# http://redis.io/clients
+
+# Install redis locally and write code that shows how you would implement a simple worker/queue system using redis.
+
+# You should create 2 "workers" in the language of your choice- each should be a standalone script that interact with a locally running instance of the redis server
+
+#   worker1
+#     generates a random number once every second and adds it to a queue for worker2 to process
+
+#   worker2
+#     keeps a redis key called 'total' updated with the running sum of all numbers that appear in its queue
